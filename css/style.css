@@ -12,25 +12,52 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
-    background: #bd1e43;
     text-align: right;
 }
 
-.navbar li{
+.navbar li {
     display: inline-block;
 }
 
 .navbar a {
     text-decoration: none;
-    color: #fff;
+    color: black;
     width: 100px;
     display: block;
     padding: 25px 20px;
     text-align: center;
 }
 
-.navbar a:hover{
-    background: #353640;
+.navbar a:hover {
+    background: #eb7d34;
+}
+
+/*Container for Karma introduction*/
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.IntroductionHeader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    font-weight: 300;
+    
+}
+
+.IntroductionSubHeader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+    font-size: 30px;
+    font-weight: 300;
 }
 
 /**
